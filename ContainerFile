@@ -4,4 +4,3 @@ RUN wget https://www.python.org/ftp/python/3.10.8/Python-3.10.8.tgz
 RUN tar xzf /Python-3.10.8.tgz
 RUN Python-3.10.8/configure --enable-optimizations 
 RUN sh -c 'make altinstall'
-CMD ["/bin/bash", "-c", "sleep infinity"]
